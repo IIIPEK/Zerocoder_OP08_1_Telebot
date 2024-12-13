@@ -183,7 +183,9 @@ fabric.properties
 
 # idea folder, uncomment if you don't need it
 .idea
-/config
+!/config/
+/config/*
 test.py
 /test
 !/config/*_template.py
+!/config/__init__.py
